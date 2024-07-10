@@ -20,6 +20,7 @@ spec:
     targetRevision: feat/day2
   syncPolicy:
     automated:
+      prune: true
       selfHeal: true
     syncOptions:
     - CreateNamespace=true
