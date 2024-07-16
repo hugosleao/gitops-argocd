@@ -20,7 +20,7 @@ spec:
         value: "true"
       - name: "argocd.grafana.ingress"
         value: "grafana.company123.com"
-    repoURL: https://github.com/bernardolsp/descomplicando-gitops-no-kubernetes-argocd.git
+    repoURL: 'https://github.com/hugosleao/gitops-argocd.git'
     targetRevision: feat/day2
   syncPolicy:
     automated:
